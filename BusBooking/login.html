@@ -1,0 +1,86 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <!link rel="stylesheet" type="text/css" href="logincss.css"> 
+<style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background:   #ff0066;
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #cc0052;  
+    padding: 20px;  
+}  
+label{  
+    color: #0047b3;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: center;  
+    color=white  
+}  
+</style>
+</head>    
+<body>  
+    <h2 align=center>Admin Login Page</h2><br>    
+    <div class="login" align=center>    
+    <form action="login.jsp" id="login" method="post" autocomplete="off" >    
+        <label><b>Admin Name  </b>    
+        </label>    
+        <input type="text" name="user" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="pwd" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="submit" name="log" id="log" value="submit">       
+        <br><br>       
+    </form>  
+<br><br><a href="homepage.jsp" >Go to homepage</a>	
+</div>    
+</body>    
+</html>  

@@ -1,0 +1,55 @@
+
+<html>
+<head>
+<title>Booking</title>
+<style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    
+    font-family: 'Arial';  
+}  
+.userLogin{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background:  #ffb136;
+        border-radius: 15px ;  
+} 
+label{  
+    color: #0047b3;  
+    font-size: 17px;  
+
+} 
+input[type=submit], input[type=text],input[type=password]{
+ 
+  border: none;
+  border-radius: 2px ;  
+}     
+a{  
+    float: center;  
+         	
+}
+</style>
+</head>
+<body>
+<div class="userLogin">
+   <form action="userSignin.jsp" method="post" align=center autocomplete="off">
+       <label>User name </label>
+	   <input type="text" name="username" id="username" placeholder="User name">
+	   <br><br>
+	   <label>Password </label>
+	   <input type="password" name="password" id="password" placeholder="Password">
+	   <br><br>
+	   <input type="submit" value="Sign in">
+   </form>
+   <br>
+   <p align=center>New user?  <a href="signup.html"align=center>Sign up</a></p>
+   <br>
+   <p align=center><a href="homepage.jsp">Go to Homepage</a></p>
+</div>
+</body>
+</html>

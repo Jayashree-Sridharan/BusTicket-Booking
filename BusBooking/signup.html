@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Sign Up</title>
+<style>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    
+    font-family: 'Arial';  
+}  
+.signup{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background:  #ffb136;
+        border-radius: 15px ;  
+} 
+label{  
+    color: #0047b3;  
+    font-size: 17px;  
+}     
+a{  
+    float: center;  
+    background-color=white      	
+}
+</style>
+</head>
+<body>
+<div class="signup">
+   <form action="signup.jsp" method="post" align=center autocomplete="off">
+       <label>User name</label>
+	   <input type="text" name="username" id="username" placeholder="Enter User name" required>
+	   <br><br>
+	   <label>Set Password</label>
+	   <input type="password" name="password" id="password" placeholder="Enter a Password" required>
+	   <br><br>
+	   <label>Mail id</label>
+	   <input type="text" name="mailid" id="mailid" placeholder="Enter Mail Id" required>
+	   <br><br>
+	   <input type="submit" value="Sign Up">
+   </form>
+   <br>
+   <p align=center><a href="homepage.jsp">Go to Homepage</a></p>
+</div>
+</body>
+</html>

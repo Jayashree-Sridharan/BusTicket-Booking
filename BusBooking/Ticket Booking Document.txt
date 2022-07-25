@@ -1,0 +1,42 @@
+Bus Ticket Booking - Overview 
+
+Description:
+     This is an web project with backend that is the Online ticket booking Portal.
+This portal has two set of users first is the admin who manages the travels, customer details and
+next is the customer phase where the customer can book their tickets. 
+
+Requirements: 
+        Java
+        Apache Tomcat
+        MySQL
+        HTML , JSP
+        Libraries - mysql(database), jdbc(java sql connection) , Highcharts(creating chart and map) , itext5(pdf generator), javax mail(sending mail)
+
+Database:
+       Travels details
+       User login (customer login credentials)
+       Admin details (admin login credentials)
+       User history (individual user history)
+       User Details (overall bookings)
+       Cities
+
+Admin:
+     Adding travels
+     Deleting Travels
+     Updating the seats of the travels
+     Viewing the customer ticket details
+     Viewing the travels details
+
+Customer:
+      They can signup or login through the portal with username and password
+      Enter the from and to location to serach for bus availability
+      If available they can enter the number of seats, name and age of the passengers.
+      Once the booking is complete, they can generate the ticket as pdf that is sent to their registerd mail.
+      The customer can also view their Login booking history in the form of table , different type of chart, and
+also the frequency of travel from a place in the map.
+
+Enhancements :
+          Front end can be developed more effectively.
+          Navigation from one page to other can be improved.
+
+ 
